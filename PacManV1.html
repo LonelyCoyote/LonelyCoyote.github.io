@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--This should be included on all web pages-->
+        <meta charset="utf-8">
+        
+        <!--This should be included in all web pages to make it compatible with multiple devices-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--These are optional but help search engines find your site-->
+        <meta name="description" content="Free Version Of Online PacMan Computer Game">
+        <meta name="keywords" content="PacMan,Arcade Game,Pac Man,Computer Video Game">
+        <meta name="author" content="Dennis Bingaman">
+
+        <title>JavaScript 2D Library</title>
+        <script type="text/javascript" src="processing.js"></script>
+        <style>
+            #mysketch
+            {
+                padding-left: 0;
+                padding-right: 0;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+            body
+            {
+                background-image:radial-gradient(red,blue);
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center; font-size:35px; color:red">
+            PacMan - A special version by Dennis Bingaman
+        </h1>
+        <p style="text-align: center; font-size:25px; color:white">
+            This is similar (though not identical to) the original PacMan Arcade Game<br>
+            The game was written by <em>Dennis Bingaman.</em><br>
+            If you want to use it please contact me at <href src="ddbtech@hughes.net"><strong>ddbtech@hughes.net</strong></href> 
+        </p>
+        <div style="display:block; background-color:black">
+            <ol style="font-size:25px; color:aqua">
+                <li>Enjoy Playing!</li>
+                <li>In life, be sure to always maximize fun at no expense to health and wellbeing.</li>
+            </ol>
+        </div>
+        <span>
+            <canvas
+                id="mysketch"
+                data-processing-width="800" 
+                data-processing-height="800" 
+                data-processing-sources="PacManV1Link.js PacManV1.js SoundPlayer.js">
+            </canvas>
+        </span>
+    </body>
+</html>

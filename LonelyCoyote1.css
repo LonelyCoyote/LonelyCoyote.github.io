@@ -1,0 +1,55 @@
+/*Lonely Coyote Primary WebSite Design*/
+
+body
+{
+    background-color:black;
+    /*background-image:linear-gradient(red,blue)*/
+}
+
+p
+{
+    color:aqua;
+}
+
+h1
+{
+    color:white;
+}
+
+#PageMenu
+{
+    background-image:linear-gradient(red,blue);
+    list-style-type: none;
+    margin:0;
+    overflow:hidden;
+    background-color:grey;
+    width:100%;
+    top:0;
+}
+
+#PageMenu li
+{
+    float:left;
+}
+
+#PageMenu li a
+{
+    display:inline-block;
+    color:white;
+    text-align:center;
+    padding:16px;
+    text-decoration:none;
+    transition:background-image 0.5s;
+}
+
+#PageMenu li a:hover
+{
+    
+    background-image: linear-gradient(blue,red);
+    color:black;
+  }
+
+div:hover
+{
+    background-image:linear-gradient(blue,red);
+}
